@@ -7,6 +7,7 @@ import {styles} from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
+import { useState } from 'react';
 const ServiceCard = ({index, title, icon}) => {
   return(
     <Tilt className='xs:w-[250px] w-full'>
@@ -42,10 +43,15 @@ const About = () => {
         <p className={styles.sectionSubText}>ABOUT ME</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w- 3xlleading-[30px]'>
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         I am a final year student of Computer Science Engineering & A skilled software developer with good knowledge of JavaScript, Typescript & experienced in frameworks like Express, Recat, and Next js. I am a Quick Learner and Worked in a startup where colaborated closely with client to create solutions that solve the real-world problems.
       </motion.p>
-
+      <div className='btnBox flex mt-4'> 
+        <a href='/Resume.pdf' title='Resume' download className='border-2 border-[#915eff] rounded-md py-4 px-6 mx-3 hover:bg-tertiary hover:font-bold '>
+        Download Resume</a>
+        <a href='#contact' className='border-2 border-[#915eff] rounded-md py-4 px-6 mx-3 hover:bg-tertiary hover:font-bold '>
+        Hire me</a>
+      </div>
       <div className='mt-20 flex flex-wrap gap-10'>
         {
           services.map((service, index) => (

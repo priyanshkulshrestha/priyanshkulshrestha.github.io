@@ -13,16 +13,14 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    cpp,
+    c,
+    python,
+    vscode,
+    githubdark,
+    recipe,
+    mymeet,
+    doccollab
   } from "../assets";
   
   export const navLinks = [
@@ -33,6 +31,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Portfolio",
     },
     {
       id: "contact",
@@ -77,16 +79,16 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "C",
+      icon: c,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "CPP",
+      icon: cpp,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Python",
+      icon: python,
     },
     {
       name: "Node JS",
@@ -97,20 +99,28 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
+    {
+      name: "vscode",
+      icon: vscode,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "Github",
+      icon: githubdark,
     },
   ];
   
@@ -156,93 +166,93 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Priyansh proved me wrong.",
+      name: "Maneet Singh",
+      designation: "CEO",
+      company: "All Friends Studio",
+      image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a web developer who truly cares about their clients' success like Priyansh does.",
+      name: "Shivam Tyagi",
+      designation: "Manager",
+      company: "All Friends Studio",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "After Priyansh optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Vanshika Gupta",
+      designation: "Convener",
+      company: "Trinity Cyber Forum",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "My-Meet",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This web app is like google meet it works on WebSockets implemented using Socket.io and Express. When a user joins the app it creates a unique URL and can share that link with friends to join the meet where they can do video meet and chat.",
+      tags: [
+        {
+          name: "NodeJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Socket.io",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mymeet,
+      source_code_link: "https://github.com/priyanshkulshrestha/My-meet",
+    },
+    {
+      name: "Doc-Collab",
+      description:
+        "Web application that work likes google docs where you can create a document and can edit it with your friends remotely and changes will be updated on run time. This web app is created using MERN Stack and Socket.io",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Express",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: doccollab,
+      source_code_link: "https://github.com/priyanshkulshrestha/Doc-collab",
     },
     {
-      name: "Job IT",
+      name: "Recipe Finder",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "It is a fully responsive react app where you can search for any dish and its recipe by its name. I have implemented debouncing in the search box. This is developed using React & Styled Components.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Styled-Components",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "API-Integration",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: recipe,
+      source_code_link: "https://github.com/priyanshkulshrestha/Recipe-finder",
     },
   ];
   

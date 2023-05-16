@@ -9,6 +9,10 @@ import close from "./close.svg";
 import downArrow from "./downArrow.svg"
 
 import css from "./tech/css.png";
+import c from "./c.png";
+import cpp from "./cpp.png";
+import githubdark from "./githubDark.png";
+import vscode from "./vscode.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -16,20 +20,16 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import python from "./python.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import recipe from "./Recipe.png";
+import mymeet from "./mymeet.png";
+import doccollab from "./doccollab.png"
 
 export {
   logo,
@@ -41,6 +41,9 @@ export {
   menu,
   close,
   css,
+  cpp,
+  c,
+  python,
   docker,
   figma,
   git,
@@ -53,12 +56,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
-  downArrow
+  downArrow, 
+  vscode,
+  githubdark, 
+  recipe,
+  mymeet,
+  doccollab
 };
