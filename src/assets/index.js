@@ -1,12 +1,15 @@
+//nav secton images
 import logo from "./logo.svg";
+import menu from "./menu.svg";
+import close from "./close.svg";
+import downArrow from "./downArrow.svg"
+//about section images
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+//github icon
 import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
-import downArrow from "./downArrow.svg"
 
 import css from "./tech/css.png";
 import c from "./c.png";
@@ -26,10 +29,21 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import recipe from "./Recipe.png";
-import mymeet from "./mymeet.png";
+// project images
 import doccollab from "./doccollab.png"
+import hastebin from "./hastebin.png"
+import hulu from "./hulu.png"
+import mymeet from "./mymeet.png";
+import myChatroom from "./my-chatroom.png";
+import recipe from "./Recipe.png";
+import secureTransfer from "./secure-transfer.png"
+import sociopedia from "./sociopedia.png"
+import tesla from "./tesla.png"
+import todo from "./todo.png"
+// testimonial images
+import maneet from "./maneet.jpg"
+import shivam from "./shivam.jpg"
+import vanshika from "./vanshika.jpg"
 
 export {
   logo,
@@ -59,7 +73,19 @@ export {
   downArrow, 
   vscode,
   githubdark, 
+
+  doccollab,
+  hastebin,
+  hulu,
   recipe,
   mymeet,
-  doccollab
+  myChatroom,
+  secureTransfer,
+  sociopedia,
+  tesla,
+  todo,
+
+  maneet,
+  shivam,
+  vanshika
 };

@@ -18,9 +18,21 @@ import {
     python,
     vscode,
     githubdark,
+
+    doccollab,
+    hastebin,
+    hulu,
     recipe,
     mymeet,
-    doccollab
+    myChatroom,
+    secureTransfer,
+    sociopedia,
+    tesla,
+    todo,
+
+    maneet,
+    shivam,
+    vanshika,
   } from "../assets";
   
   export const navLinks = [
@@ -102,10 +114,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     // {
     //   name: "Tailwind CSS",
     //   icon: tailwind,
@@ -133,7 +145,7 @@ import {
       date: "Oct 2022 - April 2023",
       points: [
         "Worked on a backend engine which was coded in typescript.",
-        "Created a scraper and collect data of US county officials and created APIs of iCollaboratingt colaborated with the US-based client directly.",
+        "Created a scraper and collect data of US county officials and created APIs of it & colaborated with the US-based client directly.",
         " Created a full-stack web app for employees of AFS to get time conversion and maintain the clock according to the client time and handle all tasks with real-time updates in the dashboard using node js and sockets.",
       ],
     },
@@ -166,27 +178,28 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Priyansh proved me wrong.",
+        "Priyansh carries a very professional attitude towards his work and while his duration with All Friends Studio, he was skillfully handing a couple of projects. He's a keen learner and does the job, before you even know it.",
       name: "Maneet Singh",
       designation: "CEO",
       company: "All Friends Studio",
-      image: "https://randomuser.me/api/portraits/men/4.jpg",
+      image: maneet,
+      link: ""
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Priyansh does.",
+        "Priyansh is a very hardworking and dedicated person, he truly cares about their clients. Javascript concepts are very clear to him and he is very good at problem-solving. ",
       name: "Shivam Tyagi",
       designation: "Manager",
       company: "All Friends Studio",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: shivam,
     },
     {
       testimonial:
-        "After Priyansh optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Priyansh is a good team leader, as President of TCF he manages his team very well and organized many amazing events. He is a good team player and always ready to help others.",
       name: "Vanshika Gupta",
       designation: "Convener",
       company: "Trinity Cyber Forum",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: vanshika,
     },
   ];
   
@@ -213,6 +226,35 @@ import {
       source_code_link: "https://github.com/priyanshkulshrestha/My-meet",
     },
     {
+      name: "Sociopedia",
+      description:
+        "This is a MERN-stack social-media web app. Where users can post text, and images & like them they can follow and unfollow others. In this app features like authentification and private routing are implemented neatly.",
+      tags: [
+        {
+          name: "NodeJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: sociopedia,
+      source_code_link: "https://github.com/priyanshkulshrestha/sociopedia",
+    },
+    {
       name: "Doc-Collab",
       description:
         "Web application that work likes google docs where you can create a document and can edit it with your friends remotely and changes will be updated on run time. This web app is created using MERN Stack and Socket.io",
@@ -234,9 +276,59 @@ import {
       source_code_link: "https://github.com/priyanshkulshrestha/Doc-collab",
     },
     {
+      name: "My-Chatroom",
+      description:
+        "This web application can be used for chatting with your friends here people can join the room and chat with the joined users, chats will update in run time. This chat app is based on web sockets using Socket.io",
+      tags: [
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Socket.io",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: myChatroom,
+      source_code_link: "https://github.com/priyanshkulshrestha/My-Chatroom",
+    },
+    {
+      name: "My Hastebin",
+      description:
+        "This is a full-stack web app can be used for sharing code templates, where one person can write or paste a code and share it with friends by sharing a unique URL.",
+      tags: [
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "EJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: hastebin,
+      source_code_link: "https://github.com/priyanshkulshrestha/hastebin",
+    },
+    {
       name: "Recipe Finder",
       description:
-        "It is a fully responsive react app where you can search for any dish and its recipe by its name. I have implemented debouncing in the search box. This is developed using React & Styled Components.",
+        "It is a fully responsive react app where you can search for any dish and its recipe by its name. I have implemented debouncing in the search box.",
       tags: [
         {
           name: "React",
@@ -253,6 +345,94 @@ import {
       ],
       image: recipe,
       source_code_link: "https://github.com/priyanshkulshrestha/Recipe-finder",
+    },
+    {
+      name: "Secure-Transfer",
+      description:
+      "It is a password protected file sharing system. where one person can put a file and share it protectedly with friends by sharing a unique URL.",
+      tags: [
+        {
+          name: "Node",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "EJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Multer",
+          color: "green-text-gradient",
+        }
+      ],
+      image: secureTransfer,
+      source_code_link: "https://github.com/priyanshkulshrestha/Secure-Transfer",
+    },
+    {
+      name: "Hulu 2.0",
+      description:
+      "It is a fully responsive clone of Hulu Website home page, here I used TMDB api for the data and implementd filters based on genres. This is designed using Tailwind CSS.",
+      tags: [
+        {
+          name: "Next JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "API-Integration",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hulu,
+      source_code_link: "https://github.com/priyanshkulshrestha/Hulu-Clone",
+    },
+    {
+      name: "Tesla-Clone",
+      description:
+      "It is a fully responsive react clone of Tesla Website home page. This is designed using Styled Components.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Styled-Components",
+          color: "green-text-gradient",
+        },
+      ],
+      image: tesla,
+      source_code_link: "https://github.com/priyanshkulshrestha/Tesla-Clone",
+    },
+    {
+      name: "To-Do App",
+      description:
+        "It is a fully responsive Todo list web app. This is developed using HTML, CSS, & Vanila Javascript. Here i used local storage to store tasks so they don't disapper after closing app.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: todo,
+      source_code_link: "https://github.com/priyanshkulshrestha/Todo-app",
     },
   ];
   

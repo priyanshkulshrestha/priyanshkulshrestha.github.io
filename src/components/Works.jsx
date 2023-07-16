@@ -79,7 +79,7 @@ const Works = () => {
         <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          Following projects showcases my skills and experience through real-world examples of my work. lorem ipsum fdsfdsh h jdfh dfhjkfshfjks shs h sj dsjk sj sj ds hffksdh jkds kd jfjsddh fjdsh kds hfad fhdfh uih fihfuihf uafahuihi urfhffuiahfuwhf ahfiuh fuw hfwfh hf uwh fhaufhaufh uffdhsuh
+          Following projects showcases my skills and experience through real-world examples of my work. Through these project I learned a lot and I think these projects are enough to showcase my skills.
         </motion.p>
       </div>
 

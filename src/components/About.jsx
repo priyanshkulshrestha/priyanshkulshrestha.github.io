@@ -44,7 +44,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am a final year student of Computer Science Engineering & A skilled software developer with good knowledge of JavaScript, Typescript & experienced in frameworks like Express, Recat, and Next js. I am a Quick Learner and Worked in a startup where colaborated closely with client to create solutions that solve the real-world problems.
+      I am Computer Science Engineering Graduate & A skilled software developer with good knowledge of JavaScript, Typescript & experience in frameworks or libraries like Express, Recat, and Next js. I am a Quick Learner and Worked in a startup where collaborated closely with clients to create solutions that solve real-world problems.
       </motion.p>
       <div className='btnBox flex mt-4'> 
         <a href='/Resume.pdf' title='Resume' download className='border-2 border-[#915eff] rounded-md py-4 px-6 mx-3 hover:bg-tertiary hover:font-bold '>
